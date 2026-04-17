@@ -26,7 +26,7 @@ Dự án xây dựng hệ thống dự đoán khả năng rời bỏ dịch vụ
 
 1. **Clone dự án**:
    ```bash
-   git clone <link-github-cua-ban>
+   git clone <https://github.com/MrHungLe/Bank_Customer_Churn>
    cd "AI project"
 2. Cài đặt thư viện:
     pip install -r requirements.txt
