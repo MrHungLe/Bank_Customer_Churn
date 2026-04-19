@@ -67,7 +67,7 @@ def predict(data: ChurnInput):
     original_data = data.dict()
     input_df = pd.DataFrame([original_data])
     
-    # B. XỬ LÝ DỮ LIỆU CHỮ (Ghi điểm với nhà tuyển dụng)
+    # B. XỬ LÝ DỮ LIỆU CHỮ
     # 1. Đổi tên cột Satisfaction_Score -> Satisfaction Score (cho giống lúc train)
     input_df = input_df.rename(columns={
         "Satisfaction_Score": "Satisfaction Score",
